@@ -1,5 +1,5 @@
 {
-  "name": "buston",
+  "name": "garantias-provisionamento",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "package": "cat dist/buston/{runtime,polyfills,scripts,main}.js | gzip > elements.js.gz",
-    "serve": "http-server"
+    "package": "cat dist/garantias-provisionamento/{runtime,polyfills,scripts,main}.js | gzip > elements.js.gz",
+    "serve": "http-server --gzip"
   },
   "private": true,
   "dependencies": {
